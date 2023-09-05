@@ -33,7 +33,7 @@ class ThirdFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFourth.setOnClickListener {
-            findNavController().navigate(R.id.action_ThirdFragment_to_FirstFragment)
+            findNavController().navigate(R.id.action_thirdFragment_to_FirstFragment)
         }
     }
 

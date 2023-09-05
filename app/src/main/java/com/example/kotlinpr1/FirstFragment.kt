@@ -36,7 +36,7 @@ class FirstFragment : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
         binding.buttonThird.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_ThirdFragment)
+            findNavController().navigate(R.id.action_FirstFragment_to_thirdFragment)
         }
     }
 
